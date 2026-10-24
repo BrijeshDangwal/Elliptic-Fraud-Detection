@@ -1,0 +1,22 @@
+{
+  "features": "AF",
+  "threshold": 0.5,
+  "illicit_caught_steps_43_49": {
+    "static": 3,
+    "retrained": 44,
+    "total": 169
+  },
+  "illicit_caught_steps_35_42": {
+    "static": 791,
+    "retrained": 790,
+    "total": 914
+  },
+  "mean_step_f1_43_49": {
+    "static": 0.0389,
+    "retrained": 0.3262
+  },
+  "mean_step_pr_auc_43_49": {
+    "static": 0.1375,
+    "retrained": 0.535
+  }
+}

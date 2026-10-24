@@ -1,0 +1,20 @@
+features,model,threshold_rule,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,pr_auc_mean,pr_auc_std
+AF,Isolation Forest (unsupervised),tuned_on_val,0.0623,,0.9557,,0.1169,,0.0365,
+AF,LightGBM,default_0.5,0.8812,0.0097,0.7347,0.0014,0.8013,0.0038,0.8069,0.0015
+AF,LightGBM,tuned_on_val,0.9125,0.019,0.7316,0.0042,0.812,0.005,0.8069,0.0015
+AF,Logistic regression,default_0.5,0.1836,,0.8781,,0.3036,,0.2904,
+AF,Logistic regression,tuned_on_val,0.3754,,0.3573,,0.3661,,0.2904,
+AF,Random forest,default_0.5,0.9717,0.0038,0.6762,0.007,0.7974,0.0042,0.7927,0.0012
+AF,Random forest,tuned_on_val,0.9022,0.0191,0.715,0.0092,0.7976,0.0032,0.7927,0.0012
+AF+Graph,LightGBM,default_0.5,0.8869,0.0075,0.7335,0.0005,0.8029,0.0028,0.8071,0.0015
+AF+Graph,LightGBM,tuned_on_val,0.9256,0.0082,0.7273,0.0032,0.8146,0.0025,0.8071,0.0015
+AF+Graph,Logistic regression,default_0.5,0.1986,,0.8246,,0.3201,,0.2656,
+AF+Graph,Logistic regression,tuned_on_val,0.3411,,0.53,,0.415,,0.2656,
+AF+Graph,Random forest,default_0.5,0.9761,0.0025,0.6777,0.0042,0.8,0.0025,0.7893,0.0013
+AF+Graph,Random forest,tuned_on_val,0.9177,0.0286,0.7058,0.011,0.7976,0.0038,0.7893,0.0013
+LF,LightGBM,default_0.5,0.7969,0.0085,0.7242,0.0035,0.7588,0.003,0.7902,0.0003
+LF,LightGBM,tuned_on_val,0.8781,0.0394,0.7011,0.0123,0.7792,0.0079,0.7902,0.0003
+LF,Logistic regression,default_0.5,0.141,,0.8596,,0.2422,,0.2531,
+LF,Logistic regression,tuned_on_val,0.3956,,0.6787,,0.4998,,0.2531,
+LF,Random forest,default_0.5,0.8779,0.0062,0.6879,0.0049,0.7714,0.0008,0.7758,0.0007
+LF,Random forest,tuned_on_val,0.8261,0.0053,0.715,0.0011,0.7665,0.0017,0.7758,0.0007
